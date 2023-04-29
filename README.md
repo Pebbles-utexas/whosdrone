@@ -8,6 +8,8 @@ First, go to the [byond](https://www.byond.com/?) website, create an account, an
 
 Next, for simplicity, I have made a BAT script that will only work on Windows machines. This BAT file will download the Skyrat-tg codebase, my files, and put them together to create the executable needed to run the game. Either download and run the full installer or you can run each step of the installer labelled with 1, 2, and 3. Be sure to copy the path to the executable it provides after finishes building the game.
 
+For the full installer, right click [this](https://github.com/Pebbles-utexas/whosdrone/raw/main/WhosDrone%20-%20Full%20Installer.bat) link and choose Save Link As
+
 # Running the game
 Open the Dream Daemon application installed alongside the byond launcher. Dream Daemon allows the running of servers using the executable created during the installation process. To the left of the green Go button is a text box that you can place the executable path into. From there press Go, wait for the server to fully initialize after you accept the final pop-up. 
 To finally join the game look to the top of the Dream Daemon window where it says | File | World | Help | and click World then find the Join option in the list that appears under it.
