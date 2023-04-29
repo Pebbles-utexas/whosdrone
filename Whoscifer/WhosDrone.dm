@@ -61,6 +61,7 @@
 /mob/living/simple_animal/drone/whoscifer_drone/emp_act(severity)
 	return
 /mob/living/simple_animal/drone/whoscifer_drone/ex_act(severity, target, origin)
+	return
 
 /mob/living/simple_animal/drone/whoscifer_drone/pickVisualAppearance()
 	picked = FALSE

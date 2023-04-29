@@ -1,4 +1,4 @@
-SUBSYSTEM_DEF(Whoscifer_descends)
+SUBSYSTEM_DEF(whoscifer_descends)
 	name = "Add Whoscifer Drone to ghost Spawner Menu "
 	flags = SS_NO_FIRE
 	priority = FIRE_PRIORITY_MOBS

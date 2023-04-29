@@ -9,17 +9,17 @@ echo Done.
 echo:
 
 echo Downloading the zip file of my github repository
-curl https://codeload.github.com/Pebbles-utexas/whosdrone/zip/refs/heads/main -L -o WhosciferDrone.zip
+curl https://codeload.github.com/Pebbles-utexas/whosdrone/zip/refs/heads/main -L -o whosdrone.zip
 echo Done.
 echo:
 
 echo Unzipping my github repository
-powershell Expand-Archive WhosciferDrone.zip -Force
+powershell Expand-Archive whosdrone.zip -Force
 echo Done.
 echo:
 
 echo Integrating my files into the game
-move /Y WhosciferDrone/whosdrone-main/Whoscifer Skyrat-tg/Skyrat-tg-master/
+move /Y whosdrone/whosdrone-main/Whoscifer Skyrat-tg/Skyrat-tg-master/
 chdir Skyrat-tg/Skyrat-tg-master/
 
 echo: >>"tgstation.dme"

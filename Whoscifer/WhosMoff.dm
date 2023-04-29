@@ -9,6 +9,7 @@
 	var/datum/action/cooldown/spell/pointed/projectile/moth_circle/moth_spell = null
 
 /obj/item/toy/plush/moth/whoscifer/attack_self(mob/user)
+	/*
 	if(!isliving(user))
 		return
 	if(moth_spell != null)
@@ -16,6 +17,7 @@
 	else
 		moth_spell = new /datum/action/cooldown/spell/pointed/projectile/moth_circle()
 		moth_spell.on_activation(user)
+	*/
 	return ..()
 
 obj/projectile/moffplush
